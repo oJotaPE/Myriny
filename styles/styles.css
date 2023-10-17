@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+:root {
+     --primary-color: #de7891;
+     --secondary-color: #f86187;
+     --accent1-color: #f5ced8;
+     --accent2-color: #FB6F92;
+
+     --heading-family: 'Courgette', cursive;
+     --paragraph-family: 'Source Serif 4', serif;
+
+     --nav-background-color: var(--secondary-color);
+     --nav-link-color: black;
+     --nav-hover-link: rgb(153, 58, 85);
+     --nav-hover-background-color: var(--accent2-color)
+}
+
+
+html{
+    font-size: 13px;
+    font-family: var(--paragraph-family) ;
+    background-color: whitesmoke;
+}
+
+body{
+    width: 95%;
+    padding: 5px;
+    border: 1.5px solid var(--accent1-color);
+    font-size: 15px;
+}
+
+header{
+    background-color: var(--accent1-color);
+    padding: 5px;
+    border: 0;
+    margin: 2px 2px 2px 2px;
+    text-align: center
+}
+
+nav a{
+    color: var(--nav-link-color);
+    padding: 2px;
+    margin: 2px;
+}
+nav a :hover{
+    color: var(--nav-hover-link);
+}
+
+h1 {
+    font-size: 2em;
+    font-family: var(--heading-family);
+    color: var(--secondary-color);
+    text-decoration: wavy;
+    text-shadow: 1px 1.3px 3.2px black;
+}
+
+img {
+    border-radius: 5%;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border: 1px solid lightpink;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--accent2-color);
+    font-size: 1.5em;
+}
+
+p {
+    text-align: justify;
+    width: 70%;    
+}
+
+
+aside {
+    background-color: var(--primary-color);
+    padding: 5px;
+    border: 1.5px solid var(--accent1-color);
+    margin: 7px;
+    border-radius: 2%;
+    width: 25%;
+    float: right;
+    box-shadow: 1.3px 1.6px 9px black;
+}
+
+#aside {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#aside-paragraph {
+    text-align: justify;
+    width: 95%;
+    padding: 4px;
+}
+
+#foto-esquerda{
+    float: left;
+}
+
+#logo-header{
+    width: 10%;
+    float: left;
+    border: none;
+    padding: none;
+    box-shadow: none;
+    border-radius: 	none;
+}
+
+#aside-image{
+    width:60%;
+    height: auto;
+    object-fit: cover;
+}
+   /* body{
+        font-size: 15px;
+        width: 95%;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid var(--accent2-color);
+        margin: 20px
+    }
+
+nav{
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    font-family: var(--heading-family);
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: rgb(157, 77, 134);
+    text-shadow: 1.6px 1.3px 3px black;
+}
+h2, h2, h3, h4, h5, h6{
+    font-size: 1.5em;
+    color: var(--secondary-color);
+}
+p {
+    text-align: justify;
+}
+
+
+    min-width: 20px;
+    max-width: 300px;
+    min-height: 20px;
+    max-height: 300px;
+} */

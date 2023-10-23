@@ -30,11 +30,12 @@ body {
     max-width: 980px;
     background-color: var(--accent3-color);
     margin: 0 auto;
+    font-size: 20px;
 }
 
 /* header */
 header{
-    min-width: 100%;
+    min-width: 180px;
     height: auto;
     padding: 10px;
     text-align: center;
@@ -67,9 +68,22 @@ a:visited {
 
 }
 .hero img{
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     height: auto;
+    position: relative;
 }
-.hero p{
-
+h1{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    font-size: 2em;
+}
+h2 {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-size: 2rem;
+    color: whitesmoke;
+    -webkit-text-stroke: 0.5px var(--accent1-color);
 }

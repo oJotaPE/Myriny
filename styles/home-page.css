@@ -44,7 +44,7 @@ header{
     position: sticky;
 }
 .home-button img {
-    width: 37px;
+    width: 45px;
     height: auto;
     padding: 3px;
     margin: 2px;
@@ -56,7 +56,7 @@ a:link {
     padding: 5px;
     margin: 2px;
     clear: both;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 a:visited {

@@ -75,7 +75,7 @@ a:visited {
 }
 h1{
     position: absolute;
-    top: 20%;
+    top: 13%;
     left: 1%;
     font-size: 3.5em;
     font-family: var(--heading-family);
@@ -83,7 +83,7 @@ h1{
 
 h2 {
     position: absolute;
-    top: 43%;
+    top: 20%;
     left: 30%;
     font-size: 2.6rem;
     color: whitesmoke;

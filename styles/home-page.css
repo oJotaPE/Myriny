@@ -86,8 +86,8 @@ h1{
 
 h2 {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 40%;
+    left: 30%;
     font-size: 2rem;
     color: whitesmoke;
     -webkit-text-stroke: 0.5px var(--accent1-color);

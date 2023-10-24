@@ -27,6 +27,7 @@ body{
     padding: 5px;
     border: 1.5px solid var(--accent1-color);
     font-size: 15px;
+    margin: 0 auto;
 }
 
 header{

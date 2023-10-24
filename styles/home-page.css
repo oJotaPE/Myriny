@@ -25,12 +25,17 @@ h5 {
 *{
     padding: 0;
     margin: 0;
+    font-family: var(--paragraph-family);
 }
 body {
     max-width: 980px;
     background-color: var(--accent3-color);
     margin: 0 auto;
     font-size: 20px;
+}
+p{
+    padding: 3px;
+    border: 2px;
 }
 
 /* header */
@@ -98,8 +103,8 @@ h2 {
 
 /* home pictures */
 .historia-img {
-    width: 20%;
-    height: auto;
+    width: auto;
+    height: 100%;
     border: 1px solid var(--secondary-color);
     border-radius: 3%;
 }
@@ -108,4 +113,15 @@ h2 {
     width: 8%;
     height: auto;
     border: 2px solid var(--secondary-color);
+}
+
+/* home grid */
+.home-grid-container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+}
+.apresentacao {
+
 }

@@ -95,3 +95,17 @@ h2 {
     padding: 3px;
     margin: 2px;
 }
+
+/* home pictures */
+.historia-img {
+    width: 20%;
+    height: auto;
+    border: 1px solid var(--secondary-color);
+    border-radius: 3%;
+}
+
+.foto-de-perfil {
+    width: 8%;
+    height: auto;
+    border: 2px solid var(--secondary-color);
+}

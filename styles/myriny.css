@@ -156,7 +156,7 @@ h2 {
 .historia{
     grid-column: 1/4;
     display: grid;
-    grid-template-columns: repeat(200px, 570px , 200px);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 200px;
     max-width: 970px;
 }

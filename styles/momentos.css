@@ -135,9 +135,9 @@ h4 {
     display: grid;
     grid-template-columns: 17% 58% 25%;
     grid-auto-rows: auto;
-    background-color: blue;
     padding: 5px;
-    margin: 1px solid var(--accent2-color);
+    margin: 2px;
+    border: 1px solid var(--accent2-color);
 }
 
 .data {

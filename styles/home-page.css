@@ -153,7 +153,7 @@ h2 {
     grid-row: 2/4;
 }
 
-.historia {
+/* .historia {
     grid-column: 1/4;
     grid-row: 3/8;
     display: grid;
@@ -199,7 +199,7 @@ h2 {
 .historia-p4 {
     grid-column: 1/5;
     grid-row: 8/10;
-}
+} */
 
 /* style the content */
 .historia-img {

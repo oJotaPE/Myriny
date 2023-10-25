@@ -230,6 +230,8 @@ h4 {
     grid-template-columns: 17% 58% 25%;
     grid-auto-rows: auto;
     background-color: blue;
+    padding: 5px;
+    margin: 1px solid var(--accent2-color);
 }
 
 .data{
@@ -270,3 +272,4 @@ h4 {
 p {
     font-size: 14px;
 }
+

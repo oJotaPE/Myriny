@@ -201,7 +201,24 @@ h2 {
     grid-row: 8/10;
 }
 
+/* memorias grid */
+.foto-memoria {
+    width: 80%;
+    height: auto;
+}
+.musica-img {
+    width: 80%;
+    height: auto;
+}
+
+.momentos-grid-container{
+    display: grid;
+    grid-template-columns: 10% 65% 25%;
+}
+
 /* style the content */
+.foto-memoria,
+.musica-img,
 .historia-img {
     justify-self: center;
     align-self: center;

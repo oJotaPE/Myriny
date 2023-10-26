@@ -300,4 +300,5 @@ button:hover {
 button{
     padding: 1rem;
     font-size: 1rem;
+    border-radius: 35%;
 }

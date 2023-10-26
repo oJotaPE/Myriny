@@ -263,7 +263,7 @@ fieldset {
 legend {
     padding: 0.5rem;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 label,
@@ -283,7 +283,7 @@ select,
 input,
 textarea {
     padding: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--paragraph-family);
     height: auto;
 }
@@ -291,4 +291,9 @@ textarea {
 button:hover {
     background-color: var(--accent1-color);
     color: white;
+}
+
+button{
+    padding: 1rem;
+    font-size: 1rem;
 }

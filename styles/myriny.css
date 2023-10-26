@@ -70,6 +70,36 @@ a:visited {
     color: whitesmoke;
 }
 
+nav {
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item {
+    width: 25%;
+    min-height: 40px;
+    margin: 0;
+    padding: 1px;
+    border: 1px solid whitesmoke;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-1 {
+    flex-grow: 1;
+}
+
+.flexbox-2 {
+    flex-grow: 1;
+}
+
+.flexbox-3 {
+    flex-grow: 1;
+}
 
 /* main */
 .hero{
@@ -213,3 +243,54 @@ p {
     font-size: 14px;
 }
 
+/* the form */
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid navy;
+    border-radius: 5%;
+    background-color: rgb(221, 228, 236);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.3rem;
+}
+
+label,
+input,
+button,
+select {
+    font-family: var(--paragraph-family);
+    font-weight: 200;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+select,
+input,
+textarea {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: var(--input-family);
+    height: auto;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+    color: white;
+}

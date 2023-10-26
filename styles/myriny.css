@@ -249,14 +249,12 @@ form {
     margin: 0 auto;
     padding: 5px;
     border: 1px solid navy;
-    border-radius: 5%;
+    border-radius: 2%;
     background-color: rgb(221, 228, 236);
     display: grid;
 }
 
 fieldset {
-    display: grid;
-    grid-gap: 10px;
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
@@ -286,7 +284,7 @@ input,
 textarea {
     padding: 1rem;
     font-size: 1.2rem;
-    font-family: var(--input-family);
+    font-family: var(--paragraph-family);
     height: auto;
 }
 

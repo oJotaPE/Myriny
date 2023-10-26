@@ -162,7 +162,7 @@ h2 {
     grid-row: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 150px;
+    grid-auto-rows: 120px;
     grid-gap: 5px;
 }
 .foto-de-perfil-1 {
@@ -245,7 +245,7 @@ p {
 
 /* the form */
 form {
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     padding: 5px;
     border: 1px solid navy;
@@ -258,7 +258,7 @@ fieldset {
     margin: 1rem;
     border: 1px solid black;
     padding: 1rem;
-    width: 90%;
+    width: 80;
 }
 
 legend {

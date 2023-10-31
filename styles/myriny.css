@@ -216,7 +216,7 @@ h2 {
     grid-row: 8;
 }
 .historia-4 {
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 11;
 }
 
@@ -240,7 +240,7 @@ h2 {
 iframe{
     max-width: 450px;
     max-height: 340px;
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 11;
 }
 

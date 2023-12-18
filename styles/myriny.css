@@ -194,7 +194,7 @@ h2 {
     grid-auto-rows: 315px;
     max-width: 970px;
     margin-top: 20px;
-    grid-gap: 10px;
+    grid-gap: 5px;
     
 }
 
@@ -203,6 +203,7 @@ h2 {
     grid-row: 1;
     justify-self: center;
     align-self: self-end;
+    margin-bottom: 3px;
 }
 .historia-1 {
     grid-column: 1;
